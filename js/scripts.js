@@ -1,12 +1,11 @@
-// scripts.js
+var a,
+    h,
+    triangleArea;
 
-var name = prompt('Enter your name');
-//alert('Hello, ' + name);
-console.log('Hello, ' + name);
+a = prompt('Enter base');
+h = prompt('Enter height');
 
-//komentarz 1
+triangleArea=a*h/2;
+document.getElementById("result").innerHTML = 'triangle field with base a: '+a + ' and height h: ' + h + ' is equal to: ' + triangleArea;console.log('')
 
-/*
-komenarz
-2
-*/
+document.getElementById("result").innerHTML = 'Triangle area <br> is equeal to: ' + triangleArea;
